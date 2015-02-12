@@ -1,0 +1,29 @@
+{
+  "name": "rutha-dotnet-grunt-tasks",
+  "version": "0.1.0",
+  "description": "rutha.net grunt tasks",
+  "author": "Rogelio Morrell",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/molekilla/rutha-dotnet-grunt-tasks.git"
+  },
+  "main": "Gruntfile.js",
+  "license": "MIT",
+  "devDependencies": {
+    "colors": "^1.0.3",
+    "grunt": "~0.4.5",
+  },
+  "dependencies": {
+    "jshint-stylish": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/molekilla/rutha-dotnet-grunt-tasks/issues"
+  },
+  "homepage": "https://github.com/molekilla/rutha-dotnet-grunt-tasks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rutha", "aspnet", "dotnet"
+  ]
+}
