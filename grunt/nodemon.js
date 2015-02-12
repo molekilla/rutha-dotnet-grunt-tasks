@@ -1,8 +1,8 @@
 module.exports = {
-  dev: {
+  dev: {  
     options: {
+      exec: '<%= nodemon.exec %>',
       delay: '<%= nodemon.delay || 900 %>',
-      nodeArgs: '<%= nodemon.args || [] %>',
       env: {
         ASPNET_ENV: '<%= nodemon.environment %>'
       }
