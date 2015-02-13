@@ -4,7 +4,7 @@ module.exports = {
     tasks: ['jshint:gruntfile']
   },
   ui: {
-   files: ['<%= cwd %>/views/**/*.html', '<%= cwd %>/src/**/*.html', '<%= cwd %>/src/**/*.js', '<%= cwd %>/lib/**/*.js', '<%= cwd %>/spec/**/*.js'],
+   files: ['<%= cwd %>/Views/**/*.*html', '<%= cwd %>/src/**/*.html', '<%= cwd %>/src/**/*.js'],
    tasks: ['ngtemplates:dev', 'concat:dev', 'ngAnnotate:dev', 'wiredep:dev']
   },
   css: {

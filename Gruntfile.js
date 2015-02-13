@@ -65,7 +65,7 @@ var tasks = function(grunt) {
   grunt.registerTask('serve', Help.serve,
     ['preprocess:html', 'ngtemplates:dev', 'concat:dev', 'ngAnnotate:dev', 'uglify:dev', 
      'bower_concat:dev', 'wiredep:dev', 'copy:devCssImages',
-     'copy:devImages', 'cssmin:dependencies', 'cssmin:dev', 'nodemon']);
+     'copy:devImages', 'cssmin:dependencies', 'cssmin:dev', 'concurrent:dev']);
     
   // runs server side specs and UI specs
 //  grunt.registerTask('spec', Help.spec,

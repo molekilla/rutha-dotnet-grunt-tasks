@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   dev: {
-    tasks: ['nodemon'],
+    tasks: ['nodemon', 'watch'],
     options: {
       logConcurrentOutput: true
     }
