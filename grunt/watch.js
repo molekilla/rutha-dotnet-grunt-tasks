@@ -5,7 +5,7 @@ module.exports = {
   },
   ui: {
    files: ['<%= cwd %>/Views/**/*.*html', '<%= cwd %>/src/**/*.html', '<%= cwd %>/src/**/*.js'],
-   tasks: ['ngtemplates:dev', 'concat:dev', 'ngAnnotate:dev', 'wiredep:dev']
+   tasks: ['preprocess:html', 'ngtemplates:dev', 'concat:dev', 'ngAnnotate:dev', 'wiredep:dev']
   },
   css: {
    files: ['<%= cwd %>/src/**/*.css'],
